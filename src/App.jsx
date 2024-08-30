@@ -1,12 +1,13 @@
 
 import './App.css'
-
 import '@fontsource-variable/montserrat';
+import Header from './component/header';
+
 function App() {
 
   return (
     <>
-      <h1 className='text-blue-800 text-5xl font-bold'>Hola Mundo prro</h1>
+      <Header/>
     </>
   )
 }
